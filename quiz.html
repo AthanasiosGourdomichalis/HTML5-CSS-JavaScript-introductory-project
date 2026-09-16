@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>✳ Visit Buenos Aires!</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="L&T">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="icon" href ="buenos_photos/logo.png" type = "image/x-icon">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <ul class="nav-bar">
+            <li class="menu-special-item"><a class="block" href="index.html" ><img src="buenos_photos/logo.png" alt="" width="150" height="30"></a></li>
+            <li class="menu-item"><a class="block" href="contact.html"><strong>Contact</strong></a></li>
+            <li class="menu-item"><a class="block" href="quiz.html"><strong>Quiz</strong></a> </li>
+            <li class="menu-item"><a class="block" href="wheretostay.html"><strong>Where to Stay</strong></a></li>
+            <li class="menu-item"><a class="block" href="howtotravel.html"><strong>How to Travel</strong></a></li>
+            <li class="menu-item"><a class="block" href="history.html" ><strong>History</strong></a></li>
+            <li class="menu-item"><a class="block" href="activities.html" ><strong>Activities</strong></a></li>
+            <li class="menu-item"><a class="block" href="attractions.html" ><strong>Attractions</strong></a></li>
+        </ul>
+
+        <header><h1><b><u>Trivia Quiz</u></b></h1></header>
+        <div class="attraction-guide">On this <b>page</b> a <b>Trivia Quiz</b> about <b>Buenos Aires</b><br> is presented<b>!</b> The <b>content</b> of the <b>Quiz</b> is, of course,<br> related to the 
+            <b>content</b> of our <b>web-site</b>.<br> Its <b>questions</b> include <b>general information</b> from the <b>Home page<br> (index)</b>,<b> facts</b> about the city's<b> attractions (culture) (Attractions page)</b>,<br> <b>historical knowledge (History page)</b> and general <b>knowledge</b><br> regarding the city's <b>culture</b>. The <b>questions</b> will be displayed <b>all at once</b>.<br> Finally, we will keep <b>score</b>, of your <b>performance!</b><br> We hope you <b>"came prepared"</b>... </div>
+
+            <img class='globe' src="buenos_photos/quiz/globe.jpg" height="400px" width="550px">
+<div class="quiz-name">
+            <label for="userInput"><div class="question">What is your <b>name</b>?</div> </label> 
+            <input  class='ypo' type="text" id="userInput" name="userName">
+            <button class='name-button' onclick="getUserInput()"><strong>Submit</strong></button><!-- When the button is clicked, the getUserInput() function is called to get the information from the user -->
+            <br><button class="name-button" onclick="myFunction('good luck')"><strong>Start Quiz</strong></button><!-- When the button is clicked, the myFunction() function is called -->
+            <p id="demo"></p><!--definition of the demo-->
+</div>
+
+<div class="quiz">
+   <p class=erotisi><u>◐ Question 1: Buenos Aires is the capital of which country?</u> <br>
+   <input type="radio" name="question1" >Peru<br> <!--radio : circle-->
+   <input type="radio" name="question1">Brazil<br>
+   <input type="radio" name="question1" id="correct1">Argentina<br> <!--definiton of the correct answer 1-->
+   <input type="radio" name="question1">Chile<br></p>
+
+   <p class=erotisi><u>◐ Question 2: On which continent is Buenos Aires located?</u> <br>
+   <input type="radio" name="question2">Europe<br>
+   <input type="radio" name="question2">Asia<br>
+   <input type="radio" name="question2" id="correct2">America<br>  <!--definiton of the correct answer 2-->
+   <input type="radio" name="question2">Africa<br></p>
+
+   <p class=erotisi><u>◐ Question 3: Who first founded Buenos Aires?</u> <br>
+   <input type="radio" name="question3">Napoleon Bonaparte <br>
+   <input type="radio" name="question3" id="correct3">Pedro de Mendoza<br> <!--definiton of the correct answer 3-->
+   <input type="radio" name="question3">Christopher Columbus<br>
+   <input type="radio" name="question3">José de San Martín<br></p>
+
+   <p class=erotisi><u>◐ Question 4: When was Buenos Aires founded for the first time?</u>  <br>
+   <input type="radio" name="question4" id="correct4">1536<br> <!--definiton of the correct answer 4-->
+   <input type="radio" name="question4">1539<br>
+   <input type="radio" name="question4">1554<br>
+   <input type="radio" name="question4">1580<br></p>
+
+   <p class=erotisi><u>◐ Question 5: How many times has Buenos Aires been... founded?</u> <br>
+   <input type="radio" name="question5">1<br>
+   <input type="radio" name="question5" id="correct5">2<br> <!--definiton of the correct answer 5-->
+   <input type="radio" name="question5">3<br>
+   <input type="radio" name="question5">4<br></p>
+
+   <p class=erotisi><u>◐ Question 6: What is the native language of the city's residents,<br> due to the conquests/colonies of the 16th-18th century?</u> <br>
+   <input type="radio" name="question6">French<br>
+   <input type="radio" name="question6">German<br>
+   <input type="radio" name="question6">English<br>
+   <input type="radio" name="question6" id="correct6">Spanish<br></p> <!--definiton of the correct answer 6-->
+
+   <p class=erotisi><u>◐ Question 7: What was the name of the country's famous dictator<br> in the 1940s?</u> <br>
+   <input type="radio" name="question7">Francisco Franco<br>
+   <input type="radio" name="question7" id="correct7" >Juan Perón<br> <!--definiton of the correct answer 7-->
+   <input type="radio" name="question7">Fidel Castro<br>
+   <input type="radio" name="question7">Benito Mussolini<br></p>
+
+   <p class=erotisi><u>◐ Question 8: Buenos Aires has been bombed by... its own Navy</u> <br>
+   <input type="radio" name="question8" id="correct8">True<br> <!--definiton of the correct answer 8-->
+   <input type="radio" name="question8">False<br></p>
+
+
+   <p class=erotisi><u>◐ Question 9: What is the city's famous football derby?</u> <br>
+   <input type="radio" name="question9">Inter - Milan<br>
+   <input type="radio" name="question9" id="correct9">Boca Juniors - River Plate<br> <!--definiton of the correct answer 9-->
+   <input type="radio" name="question9">Benfica - Porto<br>
+   <input type="radio" name="question9">Santos - Flamengo<br></p>
+
+   <p class=erotisi> <u>◐ Question 10: Into how many communes is the city divided?</u> <br>
+   <input type="radio" name="question10">8<br>
+   <input type="radio" name="question10">10<br>
+   <input type="radio" name="question10">12<br>
+   <input type="radio" name="question10" id="correct10">15<br> <!--definiton of the correct answer 10-->
+
+   <input type="submit" name="submit" value="Submit" onclick="result()"></p> <!-- When the "Submit" button is clicked, the result() function is called to calculate the score -->
+   
+</div>
+        <footer>
+            <p>&copy; 2024-2025 | Introduction to Computer Science<br>Athanasios Gourdomichalis & Leonidas Bouzas</p>
+        </footer>
+        <body>
+    </html> 
