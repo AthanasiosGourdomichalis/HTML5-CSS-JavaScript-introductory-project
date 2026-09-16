@@ -23,6 +23,11 @@ by clicking the logo, at the top left of the menu!
 [https://athanasiosgourdomichalis.github.io/HTML5-CSS-JavaScript-introductory-project/](https://athanasiosgourdomichalis.github.io/HTML5-CSS-JavaScript-introductory-project/)
 
 ---
+## Run the project:
+* Open index.html directly in any web browser, or
+* Serve it locally using the Live Server extension in VS Code.
+
+---
 # 👤 Author
 ## Athanasios Gourdomichalis - https://github.com/AthanasiosGourdomichalis
 
