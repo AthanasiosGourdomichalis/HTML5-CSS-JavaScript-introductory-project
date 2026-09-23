@@ -42,6 +42,6 @@ by clicking the logo, at the top left of the menu!
 
 ---
 # 👤 Author
-## Athanasios Gourdomichalis - https://github.com/AthanasiosGourdomichalis
+## **Athanasios Gourdomichalis** - [GitHub Profile](https://github.com/AthanasiosGourdomichalis)
 
 ---
